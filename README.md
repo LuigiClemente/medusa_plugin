@@ -6,82 +6,77 @@
 
 **Overview**
 
-This subscription service lets you access special content through three plans: Science, Guide, and Family.
+Unlock exclusive content with our subscription service, offering three distinct plans: Science, Guide, and Family.
 
 **Plans**
 
 1. **Science Plan:**
     
-    * Basic plan for accessing important content.
+    * Your gateway to essential content.
 2. **Guide Plan:**
     
-    * Extra services along with Science benefits.
+    * Elevate your experience with premium services in addition to Science Plan benefits.
 3. **Family Plan:**
     
-    * Discounted access for up to 5 family members.
+    * Avail discounted access for up to 5 family members.
 
 **What You Can Do**
 
-* **Browse and Buy:**
+* **Explore and Subscribe:**
     
-    * Look at different plans and choose one that suits you.
-* **Activation:**
+    * Browse different plans and choose the one that aligns with your preferences.
+* **Account Activation:**
     
-    * Click a link to start using your chosen plan.
-* **Changing Plans:**
+    * Activate your chosen plan effortlessly by clicking on the sent link post-subscription.
+* **Switching Plans:**
     
-    * Switch plans based on some rules.
+    * Seamlessly transition between plans based on specified terms and conditions.
 * **Family Plan Features:**
     
-    * Invite family members and get notifications.
+    * Invite family members and receive notifications for a connected experience.
 
 **Family Plan Behavior**
 
 * **Joining:**
     
-    * Individual plans disappear, only family plan is visible.
+    * Family member plans discreetly transition to a shared family plan page, visible exclusively to dependents.
 * **Leaving:**
     
-    * Individual plans come back, goes back to the old plan.
+    * Personal plans become visible again if removed from the family plan.
 * **Main Subscriber:**
     
-    * The main person in the family can control the family plan.
+    * Empower the main subscriber with control over the family plan and membership. They can downgrade, reverting all members to individual plans.
 
 **Components**
 
 * **Web Application:**
     
-    * Where you pick and buy plans, made with Express.js and PostgreSQL.
+    * Crafted with Express.js and PostgreSQL for a seamless experience in managing subscriptions and payments.
 * **External Services:**
     
-    * Zammad for checking who you are.
-    * Stripe for paying the bill.
-* **Important Stuff Stored**
+    * Leverage Zammad for secure user authentication and Stripe for efficient payment processing.
+* **Database**
     
     * **Users:**
-        
-        * Keeps your details.
+        * Store subscriber details securely.
     * **Plans:**
-        
-        * Has info about different plans.
+        * Comprehensive information about available plans.
     * **Subscriptions:**
-        
-        * Links you to the plan you chose.
+        * Establish links between subscribers and their active plans.
     * **Invites:**
-        
-        * Deals with family plan invitations.
+        * Effectively manage family plan invitations.
 
 **How It Works**
 
-* **Log In:**
+* **Login:**
     
-    * Users that can see their plans are already Basic plan users .
-* **Buying:**
+    * Access plans and subscriptions seamlessly upon login, exclusive to Basic plan users.
+* **Subscription Process:**
     
-    * Pick a plan, pay and upgrade, and start using it.
+    * Browse plans, select, pay, and activate your chosen plan hassle-free.
 * **Changing Plans:**
     
-    * Check the plan details, and free switch plans as per the terms and conditions.
+    * Review plan details and effortlessly switch plans based on predefined terms and conditions.
 * **Family Invitations:**
     
-    * Family leader sends individual links, a family member clicks it, and they can accept the terms of the upgrade as a dependant.
+    * Family leaders send personalized links to members; upon acceptance, members seamlessly integrate into the family plan as dependents.
