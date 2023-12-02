@@ -75,13 +75,13 @@ This subscription service lets you access special content through three plans: S
 
 * **Log In:**
     
-    * Use Login to prove who you are.
+    * Users that can see their plans are already Basic plan users .
 * **Buying:**
     
-    * Pick a plan, pay with Stripe, and start using it.
+    * Pick a plan, pay and upgrade, and start using it.
 * **Changing Plans:**
     
-    * Check the plan details, follow the rules, and switch plans.
+    * Check the plan details, and free switch plans as per the terms and conditions.
 * **Family Invitations:**
     
-    * Family leader sends a link, family member clicks it, and everyone gets notified when someone joins or leaves.
+    * Family leader sends individual links, a family member clicks it, and they can accept the terms of the upgrade as a dependant.
