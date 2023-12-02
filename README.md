@@ -2,8 +2,83 @@
 
 ![image](https://github.com/LuigiClemente/medusa_plugin/assets/110490237/aade076d-c756-4d0e-9563-8e5df5d63bbc)
 
+```mermaid
+graph TD
 
+subgraph Overview
+  A[Explore and Subscribe]
+  B[Account Activation]
+  C[Switching Plans]
+  D[Family Plan Features]
 
+  A -->|Browse plans| B
+  B -->|Click link| C
+  C -->|Based on terms| D
+end
+
+subgraph Plans
+  E[Science Plan]
+  F[Guide Plan]
+  G[Family Plan]
+
+  E -->|Essential content| A
+  F -->|Premium services| A
+  G -->|Discounted access| A
+end
+
+subgraph Family_Plan_Behavior
+  H[Joining]
+  I[Leaving]
+  J[Main Subscriber]
+
+  H -->|Discreet transition| J
+  I -->|Visible again| J
+  J -->|Downgrade| E
+end
+
+subgraph Components
+  K[Web Application]
+  L[External Services]
+  M[Database]
+
+  K -->|Express.js, PostgreSQL| M
+  L -->|Zammad, Stripe| M
+  M -->|Users, Plans, Subscriptions, Invites| N[Entities]
+end
+
+subgraph How_It_Works
+  O[Login]
+  P[Subscription Process]
+  Q[Changing Plans]
+  R[Family Invitations]
+
+  O -->|Upon login| K
+  P -->|Browse, select, pay| F
+  Q -->|Review and switch| F
+  R -->|Send links| J
+end
+
+subgraph Extend_Entity
+  S[Create Entity File]
+  T[Implement Extended Entity]
+  U[Create TypeScript Declaration File]
+  V[Create Migration]
+  W[Use Custom Entity]
+
+  S -->|src/models/product.ts| T
+  T -->|import, extend class| U
+  U -->|src/index.d.ts| V
+  V -->|src/migration/1680013376180-changeProduct.ts| W
+end
+
+subgraph API_Routes
+  X[Request Parameters]
+  Y[Response Fields]
+
+  X -->|Extend validator| Y
+end
+
+```
 **Overview**
 
 Unlock exclusive content with our subscription service, offering three distinct plans: Science, Guide, and Family.
