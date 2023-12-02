@@ -93,53 +93,40 @@ Unlock exclusive content with our subscription service, offering three distinct 
     * Elevate your experience with premium services in addition to Science Plan benefits.
 3. **Family Plan:**
     
-    * Avail discounted access for up to 5 family members.
+    * Avail discounted access for up to 5 family members to Guide plans.
 
 **What You Can Do**
 
 * **Explore and Subscribe:**
     
-    * Browse different plans and choose the one that aligns with your preferences.
+    * Browse the 3 plans and choose the one that aligns with your preferences.
 * **Account Activation:**
     
-    * Activate your chosen plan effortlessly by clicking on the sent link post-subscription.
+    * Activate your Guide plan effortlessly by clicking on the sent link post-subscription.
 * **Switching Plans:**
     
     * Seamlessly transition between plans based on specified terms and conditions.
 * **Family Plan Features:**
     
-    * Invite family members and receive notifications for a connected experience.
+    * Invite family members to receive a dependant upgrade.
 
 **Family Plan Behavior**
 
 * **Joining:**
     
-    * Family member plans discreetly transition to a shared family plan page, visible exclusively to dependents.
+    * Family members when accepted in the family plan, have their plan page discreetly transition to a shared family plan page, visible exclusively to dependents.
 * **Leaving:**
     
-    * Personal plans become visible again if removed from the family plan.
+    * Personal plans become visible again if user is removed from the family plan.
 * **Main Subscriber:**
     
-    * Empower the main subscriber with control over the family plan and membership. They can downgrade, reverting all members to individual plans.
+    * The main subscriber with control over the family plan and membership. They can downgrade, reverting all members to individual basic plans.
 
 **Components**
 
 * **Web Application:**
     
-    * Crafted with Express.js and PostgreSQL for a seamless experience in managing subscriptions and payments.
-* **External Services:**
-    
-    * Leverage Zammad for secure user authentication and Stripe for efficient payment processing.
-* **Database**
-    
-    * **Users:**
-        * Store subscriber details securely.
-    * **Plans:**
-        * Comprehensive information about available plans.
-    * **Subscriptions:**
-        * Establish links between subscribers and their active plans.
-    * **Invites:**
-        * Effectively manage family plan invitations.
+    * Medusa.js for a seamless experience in managing subscriptions and payments.
 
 **How It Works**
 
