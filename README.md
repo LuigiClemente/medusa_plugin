@@ -1,4 +1,6 @@
+![Screenshot 2023-12-02 at 20 11 53](https://github.com/LuigiClemente/medusa_plugin/assets/110490237/68cc3f50-0c86-46e6-92a4-6ee4260700a7)
 
+![image](https://github.com/LuigiClemente/medusa_plugin/assets/110490237/aade076d-c756-4d0e-9563-8e5df5d63bbc)
 
 
 
