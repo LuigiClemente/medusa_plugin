@@ -87,19 +87,19 @@ Unlock exclusive content with our subscription service, offering three distinct 
 
 1. **Science Plan:**
     
-    * Your gateway to essential content.
+    * Essential content.
 2. **Guide Plan:**
     
-    * Elevate your experience with premium services in addition to Science Plan benefits.
+    * Premium content.
 3. **Family Plan:**
     
-    * Avail discounted access for up to 5 family members to Guide plans.
+    * Premium content discounted access for up to 5 family members to Guide plans.
 
 **What You Can Do**
 
 * **Explore and Subscribe:**
     
-    * Browse the 3 plans and choose the one that aligns with your preferences.
+    * Browse the 3 plans and choose the one that aligns with your preferences, upgrading or downgrading.
 * **Account Activation:**
     
     * Activate your Guide plan effortlessly by clicking on the sent link post-subscription.
