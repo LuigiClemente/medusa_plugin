@@ -1,41 +1,4 @@
-```mermaid
-graph TD
-  subgraph "User Actions"
-    A(Browse and Buy) -->|Select Plan| B(Activation)
-    B -->|Activate Subscription| C{Enjoy Content}
-  end
 
-  subgraph "Changing Plans"
-    C -->|Check Target Plan| D(Apply Rules)
-    D -->|Update Subscription| E{Enjoy Updated Content}
-  end
-
-  subgraph "Family Plan Features"
-    E -->|Invite Family Members| F{Get Notifications}
-  end
-
-  subgraph "Family Plan Behavior"
-    F -->|Joining| G{Disappear Individual Plans}
-    G -->|Leaving| H{Reappear Individual Plans}
-    H -->|Main Subscriber| I{Manage Family Plan}
-  end
-
-  subgraph "Components"
-    I -->|Web Application| J{Express.js, PostgreSQL}
-    I -->|External Services| K{Stripe}
-    K -->|Core DB Tables| L{Users, Plans, Subscriptions, Invites}
-  end
-
-  subgraph "Implementation"
-    J -->|Integrate Authentication| K
-    B -->|Select Plan| K
-    K -->|Stripe Bills User| D
-    D -->|Charge/Refund| K
-    F -->|Generate Invite Link| F
-    F -->|Recipient Accepts| G
-    G -->|Notifications| F
-  end
-```
 
 
 
@@ -110,7 +73,7 @@ This subscription service lets you access special content through three plans: S
 
 * **Log In:**
     
-    * Use Zammad to prove who you are.
+    * Use Login to prove who you are.
 * **Buying:**
     
     * Pick a plan, pay with Stripe, and start using it.
